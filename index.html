@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Development Training</title>
+
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <!-- <main id="overall-wrapper"> -->
+    <section id="Bg-container">
+      <section id="left-hand-group">
+        <div id="logo">
+          <img src="./image/Logo.png" alt="page-logo" />
+        </div>
+
+        <h2>For Individuals</h2>
+
+        <p>
+          Start benefiting from the wellness experience. For companies looking
+          on increasing productivity, and improving organization wellness.
+        </p>
+      </section>
+
+      <section id="right-hand-group">
+        <div id="form-control">
+          <div id="upper-group">
+            <div class="form-control" id="left-form">
+              <div class="labels"><span>Firstname</span></div>
+              <input
+                type="text"
+                name="firstname"
+                id="firstname"
+                required
+                placeholder="Tolu"
+              />
+
+              <div class="labels"><span>Gender</span></div>
+              <select title="gender" name="gender" id="gender">
+                <option value="">Select one</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+              </select>
+
+              <div class="labels"><span>Weight (KG)</span></div>
+              <input
+                type="text"
+                name="weight"
+                id="weight"
+                required
+                placeholder="Enter your weight in (KG)"
+              />
+            </div>
+
+            <div class="form-control" id="right-form">
+              <div class="labels"><span>Lastname</span></div>
+              <input
+                type="text"
+                name="lastname"
+                id="lastname"
+                required
+                placeholder="Enter your lastname"
+              />
+
+              <div class="labels"><span>Date of Birth</span></div>
+              <input type="date" name="bod" id="dob" required />
+
+              <div class="labels"><span>Height (CM)</span></div>
+              <input
+                type="number"
+                name="height"
+                id="height"
+                required
+                placeholder="Enter your height in (CM)"
+              />
+            </div>
+          </div>
+
+          <div id="bottom-group">
+            <div class="labels"><span>Activity Level</span></div>
+            <select title="activity-level" name="activity-level" id="activity-level">
+              <option value="">Select one</option>
+              <option value="L1">Level One</option>
+              <option value="L2">Level Two</option>
+              <option value="L3">Level Three</option>
+              <option value="L4">Level Four</option>
+              <option value="L5">Level Five</option>
+            </select>
+
+            <div class="labels"><span>Password</span></div>
+            <div>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                required
+                placeholder="Enter your secret password"
+              />
+            </div>
+
+            <div id="btn-container-div">
+              <button type="button" id="btn" title="registration-button">
+                Register
+              </button>
+            </div>
+            <p>
+              By clicking Regsiter, you agree to our
+              <span class="terms">Terms of Use</span> and our
+              <span class="terms">Privacy Policy</span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- </main> -->
+  </body>
+</html>
